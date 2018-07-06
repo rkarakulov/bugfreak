@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bugfreak</title>
+    </head>
+    <body>
+        <div id="container" class="container">
+            <div id="header" class="header">
+                <div class="header_filter-button" data-period="Last3Days">
+                    <button>Last 3 days</button>
+                </div>
+                <div class="header_filter-button" data-period="LastWeek">
+                    <button>Last week</button>
+                </div>
+                <div class="header_filter-button" data-period="LastMonth">
+                    <button>Last month</button>
+                </div>
+                <div class="header_filter-button" data-period="Last3Months">
+                    <button>Last 3 months</button>
+                </div>
+                <div class="header_filter-button header_filter-button__active" data-period="AllTime">
+                    <button>All time</button>
+                </div>
+            </div>
+            <div class="chart">
+                <svg id="svgChart"></svg>
+                <div class="chart_message"></div>
+            </div>
+        </div>
+    </body>
+</html>

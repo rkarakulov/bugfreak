@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    & .header_filter-button {
+        flex-grow: 1;
+        padding: 10px;
+    }
+
+    & .header_filter-button__active {
+        border-bottom: 1px solid black;
+    }
+}

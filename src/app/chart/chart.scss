@@ -1,0 +1,18 @@
+.chart {
+    position: relative;
+
+    & .chart_message {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        color: red;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
